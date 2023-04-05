@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fastlearner</title>
+        <link rel="icon" type="image/jpg" href="images/logo.jpg">
+        <meta charset="utf=8">
+		<link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/21f42103ae.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav-black>
+           <ul>
+              <li><a>Fastlearner</a></li>
+              <li><a href="index.html"><div id="color-accueil-changed">Home</div></a></li>
+              <li><a href="index-login.html">Log out</a></li>
+              <li class="contact"><a href="index.html#pour-la-ref">Contact</a></li>
+           </ul>
+        </nav-black>
+		<div class="popup">
+		  <div class="popup-content">
+		    <p>You are successfully logged in!!</p>
+		    <button-close class="popup-close">
+		      <span class="text">Close</span>
+		      <span class="icon">
+		        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		          <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"></path>
+		        </svg>
+		      </span>
+		    </button-close>
+		  </div>
+		</div>
+
+		<div class="text-align-center">		
+			<h1> Here is the first step for you to study the USA economy!</h>
+			<div class="card-sheet">
+				<img src="images/economy-usa.jpg" alt=economy width="750px" height="1000px">
+			</div>
+		</div>
+		<script>
+			const popup = document.querySelector('.popup');
+			const popupClose = document.querySelector('.popup-close');
+
+			// Afficher la popup
+			popup.style.display = 'flex';
+
+			// Fermer la popup au clic sur le bouton "Close"
+			popupClose.addEventListener('click', () => {
+			  popup.style.display = 'none';
+			});
+		</script>
+	</body>
+</html>

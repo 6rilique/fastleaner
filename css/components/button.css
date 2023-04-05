@@ -1,0 +1,121 @@
+.button-play {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+  outline: none;
+  width: 150px;
+  justify-content: center;
+  margin: auto;
+}
+
+.button-play svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  text-decoration: none;
+  color: white;
+}
+
+.button-play span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  text-decoration: none ;
+  color: white;
+}
+
+.button-play:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.button-play:hover span {
+  transform: translateX(7px);
+}
+
+/* Social Media */
+.list-inline{
+  padding-left: 200px;
+}
+
+.list-inline li{
+  display: inline;
+  margin: 5px;
+  font-size: 60px;
+}
+
+.list-inline a{
+  color: #0071E2;
+}
+
+.list-inline a:hover{
+  color: #3A9AC6;
+}
+
+button-close {
+ width: 80px;
+ height: 20px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ background: red;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+ margin-top: 100px;
+}
+
+button-close, button-close span {
+ transition: 200ms;
+}
+
+button-close .text {
+ transform: translateX(35px);
+ color: white;
+ font-weight: bold;
+ margin-right: 100px;
+}
+
+button-close .icon {
+ position: absolute;
+ transform: translateX(25px);
+ height: 40px;
+ width: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 0px;
+}
+
+button-close svg {
+ width: 15px;
+ fill: #eee;
+}
+
+button-close:hover {
+ background: #ff3636;
+}
+
+button-close:hover .text {
+ color: transparent;
+}
+
+button-close:hover .icon {
+ width: 150px;
+ border-left: none;
+ transform: translateX(0);
+}
+
+button-close:focus {
+ outline: none;
+}
+
+button-close:active .icon svg {
+ transform: scale(0.8);
+}
