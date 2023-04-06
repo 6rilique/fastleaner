@@ -1,0 +1,268 @@
+nav {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: whitesmoke;
+   padding: 10px;
+   z-index: 1;
+   transition: background-color 0.5s ease-in-out;
+}
+
+
+nav.scroll {
+  background-color: black;
+}
+
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 0 20px;
+
+}
+
+nav ul li a {
+   display: block;
+   padding: 10px;
+   color: black;
+   text-decoration: none;
+   transition: background-color 0.5s ease-in-out;
+}
+
+nav.scroll ul li a {
+   display: block;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+}
+
+#color-accueil {
+   color: #FDBD4A;
+}
+
+#color-accueil:hover {
+   color: white;
+}
+
+
+li.contact {
+   float: right;
+   margin-right: 20px;
+}
+
+nav ul li:hover {
+   background-color: black;
+   transition: background-color 0.5s ease-in-out;
+}
+
+nav.scroll ul li:hover {
+   background-color: white;
+}
+
+nav ul li:hover a {
+   color: white;
+}
+
+nav.scroll ul li:hover a {
+   color: black;
+}
+
+nav ul li:first-child a {
+   color: black;
+}
+
+nav.scroll ul li:first-child a {
+   color: white;
+}
+
+nav ul li:first-child {
+   background-color: whitesmoke;
+   transition: background-color 0.5s ease-in-out;
+}
+
+nav.scroll ul li:first-child {
+   background-color: black;
+}
+
+/*navigation black */
+
+nav-black {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #AFEEEE;
+   padding: 10px;
+   z-index: 1;
+}
+
+nav-black ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav-black ul li {
+   display: inline-block;
+   padding: 0 20px;
+
+}
+
+nav-black ul li a {
+   display: block;
+   padding: 10px;
+   color: black;
+   text-decoration: none;
+}
+
+nav-black ul li:hover a {
+   color: white;
+}
+
+nav-black ul li:first-child a {
+   color: black;
+}
+
+nav-black ul li:first-child {
+   background-color: #AFEEEE;
+}
+
+#color-accueil-changed {
+   color: orange;
+}
+
+#color-accueil-changed:hover {
+   color: white;
+}
+
+/* version tel */
+
+@media screen and (max-width: 600px) {
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px;
+  z-index: 1;
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav.scroll {
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.5s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+nav.scroll ul li a {
+  color: white;
+}
+
+nav ul li:hover a {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+  border: 2px solid black;
+}
+
+nav.scroll ul li:hover a {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+nav ul li:first-child a {
+  color: black;
+}
+
+nav.scroll ul li:first-child a {
+  color: white;
+}
+
+nav ul li:first-child {
+  background-color: whitesmoke;
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav.scroll ul li:first-child {
+  background-color: black;
+}
+
+/*navigation black */
+
+nav-black {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #AFEEEE;
+  padding: 10px;
+  z-index: 1;
+}
+
+nav-black ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav-black ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav-black ul li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+nav-black ul li:hover a {
+  color: white;
+}
+
+nav ul li:first-child a{
+    display: none;
+  }
+
+nav-black ul li:first-child a{
+    display: none;
+  }
+
+#color-accueil-changed {
+  color: orange;
+}
+
+#color-accueil-changed:hover {
+  color: white;
+}
+
+}
+
+

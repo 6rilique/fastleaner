@@ -1,0 +1,19 @@
+body {
+   background-image: url(../images/world.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 200px;
+   height: 550px;
+}
+
+
+@media only screen and (max-width: 600px) {
+body {
+background-image: url(../images/world.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 150px;
+height: 650px;
+}
+}
+
