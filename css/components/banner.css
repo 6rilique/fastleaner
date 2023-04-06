@@ -36,7 +36,7 @@
 }
 
 /* Pour les écrans mobiles */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .banner {
     padding: 100px 0px;
     height: 300px;
